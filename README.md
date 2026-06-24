@@ -1,6 +1,8 @@
 # Drift BET Trading Bot
 
-![Status](https://img.shields.io/badge/status-⚪_roadmap-555?style=flat-square)
+**🌐 Language / 语言 / Язык:** [English](README.md) · [简体中文](README.zh-CN.md) · [Русский](README.ru.md)
+
+![Status](https://img.shields.io/badge/status-🟢_live-2ea44f?style=flat-square)
 [![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
@@ -9,6 +11,19 @@
 > Automated **Drift BET trading bot** — Solana. Part of the [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) suite: one execution core, one risk layer, every venue.
 
 **Drift BET** is **live in production today.**
+
+---
+
+## Live on Drift BET
+
+<div align="center">
+
+<img width="820" alt="Drift BET trading bot TUI" src="https://github.com/user-attachments/assets/b6c51ba1-14c6-4582-858c-e9441516dd1d" />
+<img width="820" alt="Drift BET trading bot TUI" src="https://github.com/user-attachments/assets/66d9cb72-e14a-414f-93e5-600fb1d3f49f" />
+
+<sub>The shared TUI running against Drift BET — live positions, P&L, and circuit-breaker state. <!-- TODO: swap in Drift BET-specific captures --></sub>
+
+</div>
 
 ---
 
@@ -52,7 +67,7 @@ This repo is the **Drift BET** entry point. The execution core, risk layer, and 
 | **Order execution** | < 100ms end-to-end |
 | **Event processing** | < 1ms per event |
 | **Safety** | Circuit breaker · depth guard · dry-run · trade floor |
-| **Venues** | Polymarket · Kalshi · Limitless live — 20+ on roadmap |
+| **Venues** | 7 live today · 20+ venues |
 
 Adding a venue means writing **one adapter** — not rebuilding a bot.
 
