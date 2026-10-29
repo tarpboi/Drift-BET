@@ -3,12 +3,12 @@
 **🌐 Language / 语言 / Язык:** [English](README.md) · [简体中文](README.zh-CN.md) · [Русский](README.ru.md)
 
 ![Status](https://img.shields.io/badge/status-🟢_live-2ea44f?style=flat-square)
-[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)
+[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![CI](https://github.com/HarrierOnChain/Drift-BET/actions/workflows/ci.yml/badge.svg)](https://github.com/HarrierOnChain/Drift-BET/actions/workflows/ci.yml)
+[![CI](https://github.com/tarpboi/Drift-BET/actions/workflows/ci.yml/badge.svg)](https://github.com/tarpboi/Drift-BET/actions/workflows/ci.yml)
 
-> Автоматический **торговый бот Drift BET** — Solana. Часть набора [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits): одно ядро исполнения, один слой риска, все площадки.
+> Автоматический **торговый бот Drift BET** — Solana. Часть набора [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits): одно ядро исполнения, один слой риска, все площадки.
 
 **Drift BET** уже **работает в продакшене** сегодня.
 
@@ -38,7 +38,7 @@
 | 💰 **Маркет-мейкинг** — будьте казино, а не игроком (двусторонний GTD, перекос инвентаря) |
 | ⚡ **Ончейн-сигнал китов** — на 3–30 с раньше публичного API позиций |
 
-> Нужна стратегия, не указанная здесь для Drift BET? Покрытие адаптеров определяется спросом — [напишите](https://t.me/HarrierOnChain).
+> Нужна стратегия, не указанная здесь для Drift BET? Покрытие адаптеров определяется спросом — [напишите](https://t.me/tarpboi).
 
 ---
 
@@ -47,7 +47,7 @@
 Клонируйте, добавьте ключи и запустите — TUI даст выбрать стратегию.
 
 ```bash
-git clone https://github.com/HarrierOnChain/Drift-BET.git
+git clone https://github.com/tarpboi/Drift-BET.git
 cd Drift-BET
 cp config.example.yaml config.yaml   # add your keys
 cargo run --release                  # launch the TUI
@@ -60,7 +60,7 @@ cargo run --release                  # launch the TUI
 
 Этот репозиторий — точка входа для **Drift BET**. Ядро исполнения, слой риска и все 20+ адаптеров площадок находятся в основном наборе:
 
-### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)** — полный набор
+### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)** — полный набор
 
 | | |
 |---|---|
@@ -77,9 +77,9 @@ cargo run --release                  # launch the TUI
 
 | Платформа | Ссылка |
 |----------|------|
-| **Полный набор** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) |
-| **Telegram** | [@HarrierOnChain](https://t.me/HarrierOnChain) |
-| **Обсуждения** | [GitHub Discussions](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
+| **Полный набор** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) |
+| **Telegram** | [@tarpboi](https://t.me/tarpboi) |
+| **Обсуждения** | [GitHub Discussions](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
 
 *Обычно отвечаем в течение нескольких часов.*
 
@@ -87,9 +87,9 @@ cargo run --release                  # launch the TUI
 
 ## Связанные площадки
 
-[Polymarket](https://github.com/HarrierOnChain/Polymarket) · [Kalshi](https://github.com/HarrierOnChain/Kalshi) · [OG.com](https://github.com/HarrierOnChain/OG.com) · [Zeitgeist](https://github.com/HarrierOnChain/Zeitgeist)
+[Polymarket](https://github.com/tarpboi/Polymarket) · [Kalshi](https://github.com/tarpboi/Kalshi) · [OG.com](https://github.com/tarpboi/OG.com) · [Zeitgeist](https://github.com/tarpboi/Zeitgeist)
 
-> Полный каталог площадок — в [основном наборе →](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
+> Полный каталог площадок — в [основном наборе →](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
 
 ---
 
@@ -101,8 +101,8 @@ cargo run --release                  # launch the TUI
 
 <div align="center">
 
-**Торговый бот Drift BET · построен на движке [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)**
+**Торговый бот Drift BET · построен на движке [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@HarrierOnChain-26A5E4?style=flat-square&logo=telegram)](https://t.me/HarrierOnChain)
+[![Telegram](https://img.shields.io/badge/Telegram-@tarpboi-26A5E4?style=flat-square&logo=telegram)](https://t.me/tarpboi)
 
 </div>

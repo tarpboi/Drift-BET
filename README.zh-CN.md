@@ -3,12 +3,12 @@
 **🌐 Language / 语言 / Язык:** [English](README.md) · [简体中文](README.zh-CN.md) · [Русский](README.ru.md)
 
 ![Status](https://img.shields.io/badge/status-🟢_live-2ea44f?style=flat-square)
-[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)
+[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![CI](https://github.com/HarrierOnChain/Drift-BET/actions/workflows/ci.yml/badge.svg)](https://github.com/HarrierOnChain/Drift-BET/actions/workflows/ci.yml)
+[![CI](https://github.com/tarpboi/Drift-BET/actions/workflows/ci.yml/badge.svg)](https://github.com/tarpboi/Drift-BET/actions/workflows/ci.yml)
 
-> 自动化 **Drift BET 交易机器人** — Solana。隶属 [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) 套件：一个执行核心，一个风控层，覆盖所有平台。
+> 自动化 **Drift BET 交易机器人** — Solana。隶属 [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) 套件：一个执行核心，一个风控层，覆盖所有平台。
 
 **Drift BET** 现已在生产环境中**正式上线**。
 
@@ -38,7 +38,7 @@
 | 💰 **做市** — 做庄家，而非赌徒（双边 GTD，库存偏移） |
 | ⚡ **链上巨鲸信号** — 比公开持仓 API 提前 3–30 秒 |
 
-> 想要 Drift BET 上未列出的策略？适配器覆盖按需驱动 — [联系我们](https://t.me/HarrierOnChain)。
+> 想要 Drift BET 上未列出的策略？适配器覆盖按需驱动 — [联系我们](https://t.me/tarpboi)。
 
 ---
 
@@ -47,7 +47,7 @@
 克隆仓库、填入密钥、运行 —— TUI 让你选择策略。
 
 ```bash
-git clone https://github.com/HarrierOnChain/Drift-BET.git
+git clone https://github.com/tarpboi/Drift-BET.git
 cd Drift-BET
 cp config.example.yaml config.yaml   # add your keys
 cargo run --release                  # launch the TUI
@@ -60,7 +60,7 @@ cargo run --release                  # launch the TUI
 
 本仓库是 **Drift BET** 的入口。执行核心、风控层以及全部 20+ 个平台适配器都位于主工具包中：
 
-### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)** — 完整套件
+### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)** — 完整套件
 
 | | |
 |---|---|
@@ -77,9 +77,9 @@ cargo run --release                  # launch the TUI
 
 | 平台 | 链接 |
 |----------|------|
-| **完整工具包** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) |
-| **Telegram** | [@HarrierOnChain](https://t.me/HarrierOnChain) |
-| **讨论区** | [GitHub Discussions](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
+| **完整工具包** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) |
+| **Telegram** | [@tarpboi](https://t.me/tarpboi) |
+| **讨论区** | [GitHub Discussions](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
 
 *通常在数小时内回复。*
 
@@ -87,9 +87,9 @@ cargo run --release                  # launch the TUI
 
 ## 相关平台
 
-[Polymarket](https://github.com/HarrierOnChain/Polymarket) · [Kalshi](https://github.com/HarrierOnChain/Kalshi) · [OG.com](https://github.com/HarrierOnChain/OG.com) · [Zeitgeist](https://github.com/HarrierOnChain/Zeitgeist)
+[Polymarket](https://github.com/tarpboi/Polymarket) · [Kalshi](https://github.com/tarpboi/Kalshi) · [OG.com](https://github.com/tarpboi/OG.com) · [Zeitgeist](https://github.com/tarpboi/Zeitgeist)
 
-> 在[主工具包 →](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)中浏览完整平台目录
+> 在[主工具包 →](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)中浏览完整平台目录
 
 ---
 
@@ -101,8 +101,8 @@ cargo run --release                  # launch the TUI
 
 <div align="center">
 
-**Drift BET 交易机器人 · 基于 [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) 引擎构建**
+**Drift BET 交易机器人 · 基于 [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) 引擎构建**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@HarrierOnChain-26A5E4?style=flat-square&logo=telegram)](https://t.me/HarrierOnChain)
+[![Telegram](https://img.shields.io/badge/Telegram-@tarpboi-26A5E4?style=flat-square&logo=telegram)](https://t.me/tarpboi)
 
 </div>

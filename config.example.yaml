@@ -1,7 +1,7 @@
 # Drift BET Trading Bot — example config.
 # Copy to `config.yaml` and fill in. NEVER commit your real config.yaml.
 # Full engine + all 20+ venue adapters:
-#   https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits
+#   https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits
 
 venue: drift_bet   # adapter selector
 enable_trading: false               # ALWAYS start in dry-run
